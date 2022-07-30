@@ -224,7 +224,7 @@ FEATURES
 */
 
 .section__title{
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
     font-weight: 600;
     text-align: center;
@@ -340,6 +340,8 @@ Steps
 
 .steps__flex{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .steps__text{
@@ -347,6 +349,7 @@ Steps
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-left: 4rem;
 }
 
 .steps__img{
@@ -364,3 +367,68 @@ Steps
     padding-right: 1.25em;
 }
 
+.steps__list{
+    margin-top: 2rem;
+    list-style: none;
+    width: 80%;
+    display: flex;
+}
+
+.steps__list--num{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #d2d6e3;
+}
+
+.steps__list--text{
+    margin-left: 1.5rem;
+}
+
+.steps__title{
+    color: #243E63;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.steps__subtitle{
+    margin-top: 0.75rem;
+}
+
+.ap{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.affordable{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+}
+
+.ap__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dollar{
+    border: none;
+    background-color: lightgreen;
+    color: green;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 100%;
+    
+}
+
+.ap__des{
+    margin-top: 1rem;
+}
