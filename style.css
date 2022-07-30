@@ -201,6 +201,7 @@ header{
     border: none;
     margin: 0.5rem;
     border-radius: 3rem;
+    cursor: pointer;
 }
 
 .company__text{
@@ -222,6 +223,28 @@ FEATURES
 
 */
 
+.section__title{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section__big--title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: #243E63;
+}
+
+.feature__description{
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    color: #7C8BA1;
+    padding-right: 3rem;
+}
+
 .container{
     padding: 5rem 0;
 }
@@ -233,21 +256,7 @@ FEATURES
     justify-content: center;
 }
 
-.features__title{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    text-align: center;
-}
-
-.features__big--title{
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
-    color: #243E63;
-}
-
-.features__subtitle{
+.section__subtitle{
     width: 60%;
     font-size: 1.125em;
     text-align: center;
@@ -279,16 +288,79 @@ FEATURES
     color: #243E63;
 }
 
-.feature__description{
-    margin-top: 1rem;
-    font-weight: 500;
-    line-height: 2;
-    color: #7C8BA1;
-    padding-right: 3rem;
-}
-
 .feature__img img{
     padding: 1.25rem;
     border: 1px solid #e5e7eb;
     border-radius: 100%;
 }
+
+/* 
+
+Quality Work
+
+*/
+
+.quality__flex{
+    display: flex;
+}
+
+.quality__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.quality__img{
+    width: 50%;
+}
+
+.quality__img img{
+    width: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+.quality__big--title,
+.quality__subtitle{
+    text-align: start;
+    width: 100%;
+    padding-right: 1.25em;
+}
+
+.quality__btn{
+    border: none;
+    cursor: pointer;
+}
+
+/* 
+
+Steps
+
+*/
+
+.steps__flex{
+    display: flex;
+}
+
+.steps__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.steps__img{
+    width: 50%;
+}
+
+.steps__img img{
+    width: 100%;
+}
+
+.steps__big--title,
+.steps__subtitle{
+    text-align: start;
+    width: 100%;
+    padding-right: 1.25em;
+}
+
